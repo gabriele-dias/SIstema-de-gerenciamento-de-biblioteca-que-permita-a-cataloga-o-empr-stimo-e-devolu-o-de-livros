@@ -6,14 +6,15 @@ class CadastroDeLivros:
         self.genero = genero
         self.id_livro = id_livro
 
-class CadastroDeUsuarios: =
+class CadastroDeUsuarios: 
 
     def __init__(self, nome, idade, email, id_usuario):
         self.nome = nome
         self.idade = idade
         self.email = email
+        self.id_usuario = id_usuario
 
-class EmprestimoDeLivros: = 
+class EmprestimoDeLivros: 
 
     def __init__(self, livro, usuario, data_emprestimo):
         self.livro = livro
@@ -25,7 +26,7 @@ class EmprestimoDeLivros: =
 
 
 
-class DevolucaoDeLivros: = 
+class DevolucaoDeLivros: 
 
     def __init__(self, livro, usuario, data_devolucao):
         self.livro = livro
